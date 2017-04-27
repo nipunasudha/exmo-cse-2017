@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/form.css">
 
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
@@ -26,12 +27,12 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" value="0" name="sessionNext">Hide Next</label>
+                        <label><input type="radio" value="0" name="sessionNext" checked>Hide Next</label>
                     </div>
                 </div>
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" value="0" name="session">Hide Current</label>
+                        <label><input type="radio" value="0" name="session" checked>Hide Current</label>
                     </div>
                 </div>
             </div>
@@ -92,7 +93,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Future of computer science (in 15, 20 years) " readonly
+                        <input type="text" value="Future of computer science <br> (in 15, 20 years) " readonly
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
@@ -220,10 +221,14 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-info">Submit</button>
+            <div class="sp-sm"></div>
+            <a class="btn btn-lg btn-danger" href="index.php">Back</a> &nbsp;
+            <button type="submit" class="btn btn-lg btn-info">Save Changes</button>
         </form>
 
     </div>
+    <div class="sp-lg"></div>
+    <div class="sp-lg"></div>
 </div>
 
 </body>

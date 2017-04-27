@@ -43,27 +43,6 @@
     padding: 5px; }
   #gallery .dynamicTile .col-sm-4.col-xs-8 {
     padding: 5px; }
-  #gallery #tile1 {
-    background: #00acee; }
-  #gallery #tile2 {
-    background: #f3f3f3; }
-  #gallery #tile3 {
-    background: #47c1e4; }
-  #gallery #tile4 {
-    background-image: url("http://handsontek.net/demoimages/tiles/facebook.png");
-    background-size: cover; }
-  #gallery #tile5 {
-    background: #af1a3f; }
-  #gallery #tile6 {
-    background: #3e9dd7; }
-  #gallery #tile7 {
-    background: white; }
-  #gallery #tile8 {
-    background: #d14625; }
-  #gallery #tile9 {
-    background: #008e00; }
-  #gallery #tile10 {
-    background: #005de9; }
   #gallery .tilecaption {
     position: relative;
     top: 50%;
@@ -77,15 +56,29 @@
     font-weight: lighter; }
 
 .aware-row {
+  position: relative;
   background: #eee;
-  padding: 30px 10px; }
+  padding: 20px 10px;
+  padding-top: 50px; }
+  .aware-row.empty {
+    padding: 20px 20px; }
   .aware-row #aware-img {
     margin-left: 20px;
-    height: 150px;
+    height: 120px;
     border-radius: 100%; }
+  .aware-row .aware-tag {
+    position: absolute;
+    background: #2b82c9;
+    color: #fff;
+    font-size: 20px;
+    width: 12%;
+    top: 0;
+    left: 0;
+    padding: 8px; }
   .aware-row .aware-text {
-    font-size: 40px;
-    line-height: 150px; }
+    font-size: 35px; }
+    .aware-row .aware-text.time {
+      font-weight: bold; }
 
 #form-link {
   height: 100px;
@@ -93,5 +86,8 @@
   position: absolute;
   top: 0;
   left: 0; }
+
+.lb-next, .lb-prev {
+  width: 12% !important; }
 
 /*# sourceMappingURL=general.css.map */

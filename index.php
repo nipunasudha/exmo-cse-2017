@@ -27,26 +27,33 @@
 
     <div class="row map-container">
         <img id="map-lg" src="img/map_h.png" alt="">
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/1.jpg"
-           style="top: 10%; left: 10%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/2.jpg"
-           style="top: 10%; left: 26%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/3.jpg"
-           style="top: 10%; left: 42%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/4.jpg"
-           style="top: 10%; left: 58%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/5.jpg"
-           style="top: 10%; left: 74%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/6.jpg"
-           style="top: 50%; left: 10%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/7.jpg"
-           style="top: 50%; left: 26%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/8.jpg"
-           style="top: 50%; left: 42%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/9.jpg"
-           style="top: 50%; left: 58%; width: 16%; height: 40%;"></a>
-        <a data-lightbox="image-1" data-title="My caption" href="img/slides/10.jpg"
-           style="top: 50%; left: 74%; width: 16%; height: 40%;"></a>
+
+
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/9.jpg"
+           style="top: 4%; left: 2%; width: 13%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/8.jpg"
+           style="top: 4%; left: 20.7%; width: 8%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/7.jpg"
+           style="top: 4%; left: 29%; width: 7.5%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/1.jpg"
+           style="top: 4%; left: 37%; width: 13.5%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/5.jpg"
+           style="top: 4%; left: 51%; width: 13%; height: 23%;"></a>
+
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/3.jpg"
+           style="top: 4%; left: 69.5%; width: 15%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/2.jpg"
+           style="top: 4%; left: 85%; width: 13%; height: 23%;"></a>
+
+
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/10.jpg"
+           style="top: 73%; left: 2%; width: 19%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/6.jpg"
+           style="top: 73%; left: 52%; width: 17.5%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/4.jpg"
+           style="top: 73%; left: 70%; width: 14%; height: 23%;"></a>
+        <a data-lightbox="image-1" data-title="EXMO 2017" href="img/slides/1.jpg"
+           style="top: 73%; left: 85%; width: 13%; height: 23%;"></a>
     </div>
     <img class="section-heading" src="img/headings/h_aware.png" alt="">
     <?php

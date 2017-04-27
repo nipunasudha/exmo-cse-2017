@@ -1,1 +1,1 @@
-{"name":"shan"}
+{"id":0,"sessions":[{"image":"img\/exmo_header.png","name":"first session","description":"description"}]}

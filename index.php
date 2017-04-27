@@ -29,6 +29,25 @@
         <a href="http://www.example.cz/1.html" style="top: 27%; left: 30%; width: 9%; height: 47%;"></a>
     </div>
 
+    <?php
+        $session = json_decode(file_get_contents("newfile.txt"));
+        $currentSession = $session->sessions[$session->id];
+
+    ?>
+
+    <div>
+        <div>
+            <img src="<?php echo $currentSession->image ?>" class="img img-responsive"/>
+        </div>
+        <div>
+            <?php echo $currentSession->name; ?>
+        </div>
+        <div>
+            <?php echo $currentSession->description; ?>
+        </div>
+    </div>
+    </div>
+
     <!--<hr>-->
     <img class="section-heading" src="img/headings/h_stalls.png" alt="">
     <div id="gallery">

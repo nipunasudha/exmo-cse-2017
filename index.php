@@ -26,7 +26,7 @@
 <a href="form.php">
     <div id="form-link"></div>
 </a>
-<a href="twitter.php">
+<a href="http://www.tweetbeam.com/show?id=0t3Vk">
     <div id="twitter-link"></div>
 </a>
 <img id="header-banner" src="img/exmo_header.png" alt="">

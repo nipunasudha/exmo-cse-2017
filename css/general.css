@@ -87,4 +87,7 @@
   top: 0;
   left: 0; }
 
+.lb-next, .lb-prev {
+  width: 12% !important; }
+
 /*# sourceMappingURL=general.css.map */

@@ -114,11 +114,17 @@
         <?php
     }
     ?>
-    <div class="row aware-row empty">
-        <h4>No currently active awareness sessions available.</h4>
+    <?php
+    if ($session->id == -1 && $session->nextId == -1) {
 
-    </div>
+        ?>
+        <div class="row aware-row empty">
+            <h4>No currently active awareness sessions available.</h4>
 
+        </div>
+        <?php
+    }
+    ?>
     <!--<hr>-->
 
     <img class="section-heading" src="img/headings/h_stalls.png" alt="">

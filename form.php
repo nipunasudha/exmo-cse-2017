@@ -56,7 +56,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="How to be safe while using internet and apps" readonly
+                        <input type="text" value="Future life with technology" readonly
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Future of computer science <br> (in 15, 20 years) " readonly
+                        <input type="text" value="Internet Safety" readonly
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Fields in which computing is applied" readonly class="form-control"
+                        <input type="text" value="Inspirational personalities" readonly class="form-control"
                                id="name" name="name[]">
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Presentation on inspiring people in computer industry" readonly
+                        <input type="text" value="Internet of things" readonly
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
@@ -204,7 +204,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="IOT (Internet of Things)" readonly class="form-control" id="name"
+                        <input type="text" value="Computers Everywhere" readonly class="form-control" id="name"
                                name="name[]">
                     </div>
                 </div>

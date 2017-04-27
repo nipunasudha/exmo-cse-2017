@@ -48,21 +48,55 @@
     <img class="section-heading" src="img/headings/h_aware.png" alt="">
     <?php
     $session = json_decode(file_get_contents("sessions.txt"));
-    $currentSession = $session->sessions[$session->id];
+
+    if($session->id != -1){
+        $currentSession = $session->sessions[$session->id];
+    }
+    if($session->nextId != -1){
+        $nextSession = $session->sessions[$session->nextId];
+    }
+
 
     ?>
 
-    <div class="row aware-row">
-        <div class="col-xs-3">
-            <!--            <img src="--><?php //echo $currentSession->image ?><!--" class="img img-responsive"/>-->
-            <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
-        </div>
-        <div class="col-xs-9 aware-text">
-            <?php echo $currentSession->name; ?> -
-            <?php echo $currentSession->time; ?>
-        </div>
+    <?php
+        if($session->id != -1){
 
-    </div>
+        ?>
+            <div class="row aware-row">
+                <div class="col-xs-3">
+                    <!--            <img src="--><?php //echo $currentSession->image ?><!--" class="img img-responsive"/>-->
+                    <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
+                </div>
+                <div class="col-xs-9 aware-text">
+                    <?php echo $currentSession->name; ?> -
+                    <?php echo $currentSession->time; ?>
+                </div>
+
+            </div>
+    <?php
+        }
+    ?>
+
+    <?php
+    if($session->id != -1){
+
+        ?>
+        <div class="row aware-row">
+            <div class="col-xs-3">
+                <!--            <img src="--><?php //echo $currentSession->image ?><!--" class="img img-responsive"/>-->
+                <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
+            </div>
+            <div class="col-xs-9 aware-text">
+                <?php echo $nextSession->name; ?> -
+                <?php echo $nextSession->time; ?>
+            </div>
+
+        </div>
+        <?php
+    }
+    ?>
+
 
 
     <!--<hr>-->

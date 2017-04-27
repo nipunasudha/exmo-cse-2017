@@ -27,12 +27,12 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" value="0" name="sessionNext">Hide Next</label>
+                        <label><input type="radio" value="0" name="sessionNext" checked>Hide Next</label>
                     </div>
                 </div>
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" value="0" name="session">Hide Current</label>
+                        <label><input type="radio" value="0" name="session" checked>Hide Current</label>
                     </div>
                 </div>
             </div>

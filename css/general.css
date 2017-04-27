@@ -60,6 +60,8 @@
   background: #eee;
   padding: 20px 10px;
   padding-top: 50px; }
+  .aware-row.empty {
+    padding: 20px 20px; }
   .aware-row #aware-img {
     margin-left: 20px;
     height: 120px;

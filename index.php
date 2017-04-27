@@ -114,7 +114,10 @@
         <?php
     }
     ?>
+    <div class="row aware-row empty">
+        <h4>No currently active awareness sessions available.</h4>
 
+    </div>
 
     <!--<hr>-->
 
@@ -267,22 +270,22 @@
                 </div>
                 <div class="col-sm-2 col-xs-4">
 
-                        <div id="tile8" class="tile">
+                    <div id="tile8" class="tile">
 
-                            <div class="carousel slide" data-ride="carousel">
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="img/stalls/13.jpg"
-                                             class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="img/stalls/14.jpg"
-                                             class="img-responsive"/>
-                                    </div>
+                        <div class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/stalls/13.jpg"
+                                         class="img-responsive"/>
+                                </div>
+                                <div class="item">
+                                    <img src="img/stalls/14.jpg"
+                                         class="img-responsive"/>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
                 <div class="col-sm-2 col-xs-4">
                     <div id="tile9" class="tile">

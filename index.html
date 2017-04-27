@@ -5,9 +5,73 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/unitegallery/dist/js/unitegallery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="bower_components/unitegallery/dist/css/unite-gallery.css">
+    <script src="bower_components/unitegallery/dist/themes/tiles/ug-theme-tiles.js"></script>
+    <!--<link rel="stylesheet" href="bower_components/unitegallery/dist/themes/default/ug-theme-default.css">-->
+    <link rel="stylesheet" href="css/general.css">
     <title>Document</title>
 </head>
 <body>
-<h3>Hey Exmo!</h3>
+<img id="header-banner" src="img/exmo_header.png" alt="">
+<div class="container-exmo">
+    <h2 class="blue-exmo">Exhibition Stall Map
+        <small>(Touch to expand)</small>
+    </h2>
+    <img id="map-lg" src="img/map.png" alt="">
+
+    <!--<hr>-->
+    <h2 class="blue-exmo">Stall Gallery
+        <small>(Touch to expand)</small>
+    </h2>
+    <div id="gallery" style="display:none;">
+
+        <img alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+             src="img/tiles/tile%20(1).jpg"
+             data-image="img/tiles/tile%20(1).jpg"
+             data-description="-">
+
+        <img alt="Averitatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui"
+             src="img/tiles/tile%20(2).jpg"
+             data-image="img/tiles/tile%20(2).jpg"
+             data-description="-">
+
+        <img alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+             src="img/tiles/tile%20(3).jpg"
+             data-image="img/tiles/tile%20(3).jpg"
+             data-description="">
+
+        <img alt="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui"
+             src="img/tiles/tile%20(4).jpg"
+             data-image="img/tiles/tile%20(4).jpg"
+             data-description="">
+
+        <img alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+             src="img/tiles/tile%20(5).jpg"
+             data-image="img/tiles/tile%20(5).jpg"
+             data-description="">
+
+        <img alt="On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue"
+             src="img/tiles/tile%20(6).jpg"
+             data-image="img/tiles/tile%20(6).jpg"
+             data-description="">
+
+    </div>
+
+</div>
+
+<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+<script type="text/javascript">
+
+    jQuery(document).ready(function () {
+        jQuery("#gallery").unitegallery({
+            gallery_theme: "tiles",
+            tiles_type: "justified"
+        });
+    });
+
+</script>
 </body>
 </html>

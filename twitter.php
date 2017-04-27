@@ -27,7 +27,8 @@
     <div id="twitter-link"></div>
 </a>
 <img id="header-banner" src="img/exmo_header.png" alt="">
-<iframe id="tw" src="http://www.activitywalls.com?h=exmocse2017&c=08dfff223&ref=aw"></iframe>
+<iframe id="tw" src="http://www.tweetbeam.com/show?id=0t3Vk"></iframe>
+<!--<iframe id="tw" src="http://www.activitywalls.com?h=exmocse2017&c=08dfff223&ref=aw"></iframe>-->
 
 
 </body>

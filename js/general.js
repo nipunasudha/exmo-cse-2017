@@ -19,5 +19,6 @@ $(document).ready(function () {
         'alwaysShowNavOnTouchDevices': true,
         'wrapAround': true
     })
+
 });
 

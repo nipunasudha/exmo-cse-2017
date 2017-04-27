@@ -7,9 +7,27 @@
 #header-banner {
   width: 100%; }
 
+.section-heading {
+  width: 80%; }
+
 #map-lg {
   margin-top: 40px;
   margin-bottom: 40px;
   width: 100%; }
+
+.map-container {
+  position: relative; }
+
+.map-container img {
+  width: 100%; }
+
+.map-container a {
+  background-color: #000078;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  transition: opacity 0.2s; }
+  .map-container a:hover {
+    opacity: 0.2; }
 
 /*# sourceMappingURL=general.css.map */

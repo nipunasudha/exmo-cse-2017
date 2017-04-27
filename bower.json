@@ -1,0 +1,17 @@
+{
+  "name": "exmo",
+  "authors": [
+    "Nipuna Sudharaka <nipuna.14@cse.mrt.ac.lk>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

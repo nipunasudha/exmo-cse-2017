@@ -26,19 +26,20 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" name="session[0]">Current</label>
+                        <label><input type="radio" value="1" name="session">Current</label>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="name">Image:</label>
-                        <input type="text" value="image1.jpg" readonly class="form-control"  name="image[]">
+                        <input type="text" value="image1.jpg" readonly class="form-control" name="image[]">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="How to be safe while using internet and apps" readonly class="form-control" id="name" name="name[]">
+                        <input type="text" value="How to be safe while using internet and apps" readonly
+                               class="form-control" id="name" name="name[]">
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -57,19 +58,20 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" name="session[1]">Current</label>
+                        <label><input type="radio" value="2" name="session">Current</label>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="name">Image:</label>
-                        <input type="text" value="image1.jpg" readonly class="form-control"  name="image[]">
+                        <input type="text" value="image1.jpg" readonly class="form-control" name="image[]">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Future of computer science (in 15, 20 years) " readonly class="form-control" id="name" name="name[]">
+                        <input type="text" value="Future of computer science (in 15, 20 years) " readonly
+                               class="form-control" id="name" name="name[]">
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -88,19 +90,20 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" name="session[2]">Current</label>
+                        <label><input type="radio" value="3" name="session">Current</label>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="name">Image:</label>
-                        <input type="text" value="image1.jpg" readonly class="form-control"  name="image[]">
+                        <input type="text" value="image1.jpg" readonly class="form-control" name="image[]">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Fields in which computing is applied" readonly class="form-control" id="name" name="name[]">
+                        <input type="text" value="Fields in which computing is applied" readonly class="form-control"
+                               id="name" name="name[]">
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -119,19 +122,20 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" name="session[3]">Current</label>
+                        <label><input type="radio" value="4" name="session">Current</label>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="name">Image:</label>
-                        <input type="text" value="image1.jpg" readonly class="form-control"  name="image[]">
+                        <input type="text" value="image1.jpg" readonly class="form-control" name="image[]">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Presentation on inspiring people in computer industry" readonly class="form-control" id="name" name="name[]">
+                        <input type="text" value="Presentation on inspiring people in computer industry" readonly
+                               class="form-control" id="name" name="name[]">
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -150,19 +154,20 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
-                        <label><input type="radio" name="session[4]">Current</label>
+                        <label><input type="radio" value="5" name="session">Current</label>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="name">Image:</label>
-                        <input type="text" value="image1.jpg" readonly class="form-control"  name="image[]">
+                        <input type="text" value="image1.jpg" readonly class="form-control" name="image[]">
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="IOT (Internet of Things)" readonly class="form-control" id="name" name="name[]">
+                        <input type="text" value="IOT (Internet of Things)" readonly class="form-control" id="name"
+                               name="name[]">
                     </div>
                 </div>
                 <div class="col-md-3">

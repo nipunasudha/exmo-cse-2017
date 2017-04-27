@@ -76,4 +76,15 @@
     font-family: Segoe UI;
     font-weight: lighter; }
 
+.aware-row {
+  background: #eee;
+  padding: 30px 10px; }
+  .aware-row #aware-img {
+    margin-left: 20px;
+    height: 150px;
+    border-radius: 100%; }
+  .aware-row .aware-text {
+    font-size: 40px;
+    line-height: 150px; }
+
 /*# sourceMappingURL=general.css.map */

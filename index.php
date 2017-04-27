@@ -23,7 +23,7 @@
     <img class="section-heading" src="img/headings/h_map.png" alt="">
 
     <div class="row map-container">
-        <img id="map-lg" src="img/map_min.png" alt="">
+        <img id="map-lg" src="img/map_h.png" alt="">
         <a data-lightbox="image-1" data-title="My caption" href="img/slides/1.jpg"
            style="top: 10%; left: 10%; width: 16%; height: 40%;"></a>
         <a data-lightbox="image-1" data-title="My caption" href="img/slides/2.jpg"
@@ -45,27 +45,28 @@
         <a data-lightbox="image-1" data-title="My caption" href="img/slides/10.jpg"
            style="top: 50%; left: 74%; width: 16%; height: 40%;"></a>
     </div>
-
+    <img class="section-heading" src="img/headings/h_aware.png" alt="">
     <?php
-        $session = json_decode(file_get_contents("sessions.txt"));
-        $currentSession = $session->sessions[$session->id];
+    $session = json_decode(file_get_contents("sessions.txt"));
+    $currentSession = $session->sessions[$session->id];
 
     ?>
 
-    <div>
-        <div>
-            <img src="<?php echo $currentSession->image ?>" class="img img-responsive"/>
+    <div class="row aware-row">
+        <div class="col-xs-3">
+            <!--            <img src="--><?php //echo $currentSession->image ?><!--" class="img img-responsive"/>-->
+            <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
         </div>
-        <div>
-            <?php echo $currentSession->name; ?>
+        <div class="col-xs-9 aware-text">
+            <?php echo $currentSession->name; ?> -
+            <?php echo $currentSession->time; ?>
         </div>
-        <div>
-            <?php echo $currentSession->description; ?>
-        </div>
-    </div>
+
     </div>
 
+
     <!--<hr>-->
+
     <img class="section-heading" src="img/headings/h_stalls.png" alt="">
     <div id="gallery">
 

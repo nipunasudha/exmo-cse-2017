@@ -6,7 +6,7 @@ $time = $_GET["time"];
 $image = $_GET["image"];
 $sessions = $_GET["session"];
 $json = new \stdClass();
-$json->id = array_keys($sessions)[0];
+$json->id = $sessions-1;
 $sessions = [];
 foreach ($names as $key => $name){
     $session = new \stdClass();
@@ -25,7 +25,8 @@ $myfile = fopen("sessions.txt", "w") or die("Unable to open file!");
 fwrite($myfile, $json);
 
 
-
+header("Location: index.php"); /* Redirect browser */
+exit();
 
 
 ?>

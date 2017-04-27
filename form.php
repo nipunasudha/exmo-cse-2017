@@ -20,7 +20,7 @@
 </head>
 <body>
 <img id="header-banner" src="img/exmo_header.png" alt="">
-
+<?php  $session = json_decode(file_get_contents("sessions.txt")); ?>
 <div class="container">
     <div class="row">
         <form action="fileSave.php">
@@ -69,7 +69,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="time">Time:</label>
-                        <input type="text" class="form-control" id="time" name="time[]">
+                        <input type="text" class="form-control" id="time" name="time[]" value="<?php echo $session->sessions[0]->time; ?>">
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="time">Time:</label>
-                        <input type="text" class="form-control" id="time" name="time[]">
+                        <input type="text" class="form-control" id="time" name="time[]" value="<?php echo $session->sessions[1]->time; ?>">
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="time">Time:</label>
-                        <input type="text" class="form-control" id="time" name="time[]">
+                        <input type="text" class="form-control" id="time" name="time[]" value="<?php echo $session->sessions[2]->time; ?>">
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="time">Time:</label>
-                        <input type="text" class="form-control" id="time" name="time[]">
+                        <input type="text" class="form-control" id="time" name="time[]" value="<?php echo $session->sessions[3]->time; ?>">
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="time">Time:</label>
-                        <input type="text" class="form-control" id="time" name="time[]">
+                        <input type="text" class="form-control" id="time" name="time[]" value="<?php echo $session->sessions[4]->time; ?>">
                     </div>
                 </div>
             </div>

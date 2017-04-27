@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 .container-exmo {
   padding: 15px 8%;
 }
@@ -162,7 +166,22 @@
   left: 0;
 }
 
+#twitter-link {
+  height: 100px;
+  width: 100px;
+  //background: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 //== lightbox
 .lb-next, .lb-prev {
   width: 12% !important;
+}
+
+//========== TW
+#tw {
+  width: 100%;
+  height: 2000px;
 }

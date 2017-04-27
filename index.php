@@ -73,7 +73,7 @@
         <div class=" dynamicTile">
             <div class="row ">
                 <div class="col-sm-2 col-xs-4">
-                    <a data-lightbox="image-1" data-title="My caption" href="img/tiles/tile%20(1).jpg">
+
                         <div id="tile1" class="tile">
 
                             <div class="carousel slide" data-ride="carousel">
@@ -91,10 +91,10 @@
                             </div>
 
                         </div>
-                    </a>
+
                 </div>
                 <div class="col-sm-2 col-xs-4">
-                    <a data-lightbox="image-1" data-title="My caption" href="img/tiles/tile%20(2).jpg">
+
                         <div id="tile2" class="tile">
 
                             <div class="carousel slide" data-ride="carousel">
@@ -116,10 +116,10 @@
                             </div>
 
                         </div>
-                    </a>
+
                 </div>
                 <div class="col-sm-2 col-xs-4">
-                    <a data-lightbox="image-1" data-title="My caption" href="img/tiles/tile%20(3).jpg">
+
                         <div id="tile3" class="tile">
 
                             <div class="carousel slide" data-ride="carousel">
@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                         </div>
-                    </a>
+
                 </div>
                 <div class="col-sm-2 col-xs-4">
                     <div id="tile4" class="tile">

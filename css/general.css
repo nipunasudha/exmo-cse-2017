@@ -1,3 +1,6 @@
+body {
+  width: 100%; }
+
 .container-exmo {
   padding: 15px 8%; }
 
@@ -87,7 +90,18 @@
   top: 0;
   left: 0; }
 
+#twitter-link {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
 .lb-next, .lb-prev {
   width: 12% !important; }
+
+#tw {
+  width: 100%;
+  height: 2000px; }
 
 /*# sourceMappingURL=general.css.map */

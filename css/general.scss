@@ -121,17 +121,31 @@
 
 //========== aware
 .aware-row {
+  position: relative;
   background: #eee;
-  padding: 30px 10px;
+  padding: 20px 10px;
+  padding-top: 50px;
   #aware-img {
     margin-left: 20px;
-    height: 150px;
+    height: 120px;
     border-radius: 100%;
   }
-
+  .aware-tag {
+    position: absolute;
+    background: #2b82c9;
+    color: #fff;
+    font-size: 20px;
+    width: 12%;
+    top: 0;
+    left: 0;
+    padding: 8px;
+  }
   .aware-text {
-    font-size: 40px;
-    line-height: 150px;
+    font-size: 35px;
+    //line-height: 150px;
+    &.time {
+      font-weight: bold;
+    }
   }
 }
 

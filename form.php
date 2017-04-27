@@ -92,7 +92,7 @@
                 <div class="col-md-3">
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" value="Future of computer science (in 15, 20 years) " readonly
+                        <input type="text" value="Future of computer science <br> (in 15, 20 years) " readonly
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>

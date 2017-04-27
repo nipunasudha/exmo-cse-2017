@@ -59,10 +59,10 @@
     <?php
     $session = json_decode(file_get_contents("sessions.txt"));
 
-    if($session->id != -1){
+    if ($session->id != -1) {
         $currentSession = $session->sessions[$session->id];
     }
-    if($session->nextId != -1){
+    if ($session->nextId != -1) {
         $nextSession = $session->sessions[$session->nextId];
     }
 
@@ -70,43 +70,50 @@
     ?>
 
     <?php
-        if($session->id != -1){
-
-        ?>
-            <div class="row aware-row">
-                <div class="col-xs-3">
-                    <!--            <img src="--><?php //echo $currentSession->image ?><!--" class="img img-responsive"/>-->
-                    <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
-                </div>
-                <div class="col-xs-9 aware-text">
-                    <?php echo $currentSession->name; ?> -
-                    <?php echo $currentSession->time; ?>
-                </div>
-
-            </div>
-    <?php
-        }
-    ?>
-
-    <?php
-    if($session->id != -1){
+    if ($session->id != -1) {
 
         ?>
         <div class="row aware-row">
+            <div class="aware-tag">Current</div>
             <div class="col-xs-3">
-                <!--            <img src="--><?php //echo $currentSession->image ?><!--" class="img img-responsive"/>-->
+                <!--            <img src="--><?php //echo $currentSession->image
+                ?><!--" class="img img-responsive"/>-->
                 <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
             </div>
-            <div class="col-xs-9 aware-text">
-                <?php echo $nextSession->name; ?> -
-                <?php echo $nextSession->time; ?>
+            <div class="col-xs-6 aware-text">
+                <?php echo $currentSession->name; ?>
+            </div>
+            <div class="col-xs-3 aware-text time">
+                - <?php echo $currentSession->time; ?>
             </div>
 
         </div>
         <?php
     }
     ?>
+    <div class="sp-sm"></div>
+    <?php
+    if ($session->id != -1) {
 
+        ?>
+        <div class="row aware-row">
+            <div class="aware-tag">Next</div>
+            <div class="col-xs-3">
+                <!--            <img src="--><?php //echo $currentSession->image
+                ?><!--" class="img img-responsive"/>-->
+                <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
+            </div>
+            <div class="col-xs-6 aware-text">
+                <?php echo $nextSession->name; ?>
+            </div>
+            <div class="col-xs-3 aware-text time">
+                - <?php echo $nextSession->time; ?>
+            </div>
+
+        </div>
+        <?php
+    }
+    ?>
 
 
     <!--<hr>-->

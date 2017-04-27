@@ -89,7 +89,7 @@
     ?>
 
     <?php
-    if($session->id != -1){
+    if($session->nextId != -1){
 
         ?>
         <div class="row aware-row">

@@ -26,6 +26,23 @@
             <div class="row">
                 <div class="col-md-1">
                     <div class="radio">
+                        <label><input type="radio" value="0" name="sessionNext">Hide Next</label>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="radio">
+                        <label><input type="radio" value="0" name="session">Hide Current</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-1">
+                    <div class="radio">
+                        <label><input type="radio" value="1" name="sessionNext">Next</label>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="radio">
                         <label><input type="radio" value="1" name="session">Current</label>
                     </div>
                 </div>
@@ -42,7 +59,7 @@
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="form-group">
                         <label for="description">Description:</label>
                         <input type="text" readonly class="form-control" id="description" name="description[]">
@@ -56,6 +73,11 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-1">
+                    <div class="radio">
+                        <label><input type="radio" value="2" name="sessionNext">Next</label>
+                    </div>
+                </div>
                 <div class="col-md-1">
                     <div class="radio">
                         <label><input type="radio" value="2" name="session">Current</label>
@@ -74,7 +96,7 @@
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="form-group">
                         <label for="description">Description:</label>
                         <input type="text" readonly class="form-control" id="description" name="description[]">
@@ -88,6 +110,11 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-1">
+                    <div class="radio">
+                        <label><input type="radio" value="3" name="sessionNext">Next</label>
+                    </div>
+                </div>
                 <div class="col-md-1">
                     <div class="radio">
                         <label><input type="radio" value="3" name="session">Current</label>
@@ -106,7 +133,7 @@
                                id="name" name="name[]">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="form-group">
                         <label for="description">Description:</label>
                         <input type="text" readonly class="form-control" id="description" name="description[]">
@@ -120,6 +147,11 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-1">
+                    <div class="radio">
+                        <label><input type="radio" value="4" name="sessionNext">Next</label>
+                    </div>
+                </div>
                 <div class="col-md-1">
                     <div class="radio">
                         <label><input type="radio" value="4" name="session">Current</label>
@@ -138,7 +170,7 @@
                                class="form-control" id="name" name="name[]">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="form-group">
                         <label for="description">Description:</label>
                         <input type="text" readonly class="form-control" id="description" name="description[]">
@@ -152,6 +184,11 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-1">
+                    <div class="radio">
+                        <label><input type="radio" value="5" name="sessionNext">Next</label>
+                    </div>
+                </div>
                 <div class="col-md-1">
                     <div class="radio">
                         <label><input type="radio" value="5" name="session">Current</label>
@@ -170,7 +207,7 @@
                                name="name[]">
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="form-group">
                         <label for="description">Description:</label>
                         <input type="text" readonly class="form-control" id="description" name="description[]">

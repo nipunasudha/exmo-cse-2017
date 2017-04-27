@@ -30,7 +30,7 @@
     </div>
 
     <?php
-        $session = json_decode(file_get_contents("newfile.txt"));
+        $session = json_decode(file_get_contents("sessions.txt"));
         $currentSession = $session->sessions[$session->id];
 
     ?>

@@ -18,6 +18,9 @@
     <title>EXMO CSE 2017</title>
 </head>
 <body>
+<a href="form.php">
+    <div id="form-link"></div>
+</a>
 <img id="header-banner" src="img/exmo_header.png" alt="">
 <div class="container-exmo">
     <img class="section-heading" src="img/headings/h_map.png" alt="">
@@ -74,68 +77,68 @@
             <div class="row ">
                 <div class="col-sm-2 col-xs-4">
 
-                        <div id="tile1" class="tile">
+                    <div id="tile1" class="tile">
 
-                            <div class="carousel slide" data-ride="carousel">
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="http://handsontek.net/demoimages/tiles/twitter1.png"
-                                             class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="http://handsontek.net/demoimages/tiles/twitter2.png"
-                                             class="img-responsive"/>
-                                    </div>
+                        <div class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="http://handsontek.net/demoimages/tiles/twitter1.png"
+                                         class="img-responsive"/>
+                                </div>
+                                <div class="item">
+                                    <img src="http://handsontek.net/demoimages/tiles/twitter2.png"
+                                         class="img-responsive"/>
                                 </div>
                             </div>
-
                         </div>
+
+                    </div>
 
                 </div>
                 <div class="col-sm-2 col-xs-4">
 
-                        <div id="tile2" class="tile">
+                    <div id="tile2" class="tile">
 
-                            <div class="carousel slide" data-ride="carousel">
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="http://handsontek.net/demoimages/tiles/hot.png"
-                                             class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="http://handsontek.net/demoimages/tiles/hot2.png"
-                                             class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="http://handsontek.net/demoimages/tiles/hot3.png"
-                                             class="img-responsive"/>
-                                    </div>
+                        <div class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="http://handsontek.net/demoimages/tiles/hot.png"
+                                         class="img-responsive"/>
+                                </div>
+                                <div class="item">
+                                    <img src="http://handsontek.net/demoimages/tiles/hot2.png"
+                                         class="img-responsive"/>
+                                </div>
+                                <div class="item">
+                                    <img src="http://handsontek.net/demoimages/tiles/hot3.png"
+                                         class="img-responsive"/>
                                 </div>
                             </div>
-
                         </div>
+
+                    </div>
 
                 </div>
                 <div class="col-sm-2 col-xs-4">
 
-                        <div id="tile3" class="tile">
+                    <div id="tile3" class="tile">
 
-                            <div class="carousel slide" data-ride="carousel">
-                                <!-- Wrapper for slides -->
-                                <div class="carousel-inner">
-                                    <div class="item active">
-                                        <img src="http://handsontek.net/demoimages/tiles/weather2.png"
-                                             class="img-responsive"/>
-                                    </div>
-                                    <div class="item">
-                                        <img src="http://handsontek.net/demoimages/tiles/weather.png"
-                                             class="img-responsive"/>
-                                    </div>
+                        <div class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="http://handsontek.net/demoimages/tiles/weather2.png"
+                                         class="img-responsive"/>
+                                </div>
+                                <div class="item">
+                                    <img src="http://handsontek.net/demoimages/tiles/weather.png"
+                                         class="img-responsive"/>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
                 </div>
                 <div class="col-sm-2 col-xs-4">

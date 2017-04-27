@@ -88,10 +88,10 @@
                 ?><!--" class="img img-responsive"/>-->
                 <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
             </div>
-            <div class="col-xs-7 aware-text">
+            <div class="col-xs-6 aware-text">
                 <?php echo $currentSession->name; ?>
             </div>
-            <div class="col-xs-2 aware-text time">
+            <div class="col-xs-3 aware-text time">
                 - <?php echo $currentSession->time; ?>
             </div>
 
@@ -111,10 +111,10 @@
                 ?><!--" class="img img-responsive"/>-->
                 <img id="aware-img" src="img/aware_fake.jpg" class="img img-responsive"/>
             </div>
-            <div class="col-xs-7 aware-text">
+            <div class="col-xs-6 aware-text">
                 <?php echo $nextSession->name; ?>
             </div>
-            <div class="col-xs-2 aware-text time">
+            <div class="col-xs-3 aware-text time">
                 - <?php echo $nextSession->time; ?>
             </div>
 

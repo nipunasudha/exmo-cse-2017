@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/form.css">
 
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
@@ -220,10 +221,14 @@
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-info">Submit</button>
+            <div class="sp-sm"></div>
+            <a class="btn btn-lg btn-danger" href="index.php">Back</a> &nbsp;
+            <button type="submit" class="btn btn-lg btn-info">Save Changes</button>
         </form>
 
     </div>
+    <div class="sp-lg"></div>
+    <div class="sp-lg"></div>
 </div>
 
 </body>

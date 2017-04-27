@@ -46,11 +46,30 @@
            style="top: 50%; left: 74%; width: 16%; height: 40%;"></a>
     </div>
 
+    <?php
+        $session = json_decode(file_get_contents("sessions.txt"));
+        $currentSession = $session->sessions[$session->id];
+
+    ?>
+
+    <div>
+        <div>
+            <img src="<?php echo $currentSession->image ?>" class="img img-responsive"/>
+        </div>
+        <div>
+            <?php echo $currentSession->name; ?>
+        </div>
+        <div>
+            <?php echo $currentSession->description; ?>
+        </div>
+    </div>
+    </div>
+
     <!--<hr>-->
     <img class="section-heading" src="img/headings/h_stalls.png" alt="">
     <div id="gallery">
 
-        <div class="container dynamicTile">
+        <div class=" dynamicTile">
             <div class="row ">
                 <div class="col-sm-2 col-xs-4">
                     <a data-lightbox="image-1" data-title="My caption" href="img/tiles/tile%20(1).jpg">

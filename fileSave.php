@@ -1,0 +1,31 @@
+<?php
+
+$names = $_GET["name"];
+$description = $_GET["description"];
+$time = $_GET["time"];
+$image = $_GET["image"];
+$sessions = $_GET["session"];
+$json = new \stdClass();
+$json->id = array_keys($sessions)[0];
+$sessions = [];
+foreach ($names as $key => $name){
+    $session = new \stdClass();
+    $session->name = $name;
+    $session->description = $description[$key];
+    $session->image = $image[$key];
+    $session->time = $time[$key];
+    $sessions[] = $session;
+}
+$json->sessions = $sessions;
+
+
+$json = json_encode($json);
+
+$myfile = fopen("sessions.txt", "w") or die("Unable to open file!");
+fwrite($myfile, $json);
+
+
+
+
+
+?>

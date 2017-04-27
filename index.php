@@ -33,7 +33,7 @@
     <img class="section-heading" src="img/headings/h_stalls.png" alt="">
     <div id="gallery">
 
-        <div class="container dynamicTile">
+        <div class=" dynamicTile">
             <div class="row ">
                 <div class="col-sm-2 col-xs-4">
                     <a data-lightbox="image-1" data-title="My caption" href="img/tiles/tile%20(1).jpg">

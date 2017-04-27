@@ -15,7 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "materialize": "^0.98.2",
-    "unitegallery": "^1.7.40"
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "lightbox2": "^2.9.0"
   }
 }

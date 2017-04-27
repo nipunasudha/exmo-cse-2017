@@ -29,25 +29,7 @@
 <img id="header-banner" src="img/exmo_header.png" alt="">
 <iframe id="tw" src="http://www.activitywalls.com?h=exmocse2017&c=08dfff223&ref=aw"></iframe>
 
-<div class="container-exmo">
-    <a class="twitter-timeline" href="https://twitter.com/hashtag/exmocse2017" data-widget-id="857669157462040576">#exmocse2017
-        Tweets</a>
-    <script>!function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = p + "://platform.twitter.com/widgets.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, "script", "twitter-wjs");</script>
 
-
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/lightbox2/dist/js/lightbox.min.js"></script>
-    <script src="js/general.js"></script>
-
-</div>
 </body>
 </html>
 
